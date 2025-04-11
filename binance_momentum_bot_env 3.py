@@ -7,8 +7,8 @@ from binance.enums import *
 
 # STEP 1: Secure API key loading from environment variables
 
-BINANCE_API_KEY=FCMuPtgOL9h5cwAJOsbvf1klNjiCbZotmppT6SOAjbwaYPeYQajAOoFAu5GUJMsw
-BINANCE_API_SECRET=6SEfSmLZg5Q2ruf99NUutPFamAYgELOOqzdtV3sZMRchflRRarnBo9LrHkaDdR1n
+API_KEY = os.getenv("FCMuPtgOL9h5cwAJOsbvf1klNjiCbZotmppT6SOAjbwaYPeYQajAOoFAu5GUJMsw")
+API_SECRET = os.getenv=("6SEfSmLZg5Q2ruf99NUutPFamAYgELOOqzdtV3sZMRchflRRarnBo9LrHkaDdR1n")
 
 client = Client(API_KEY, API_SECRET)
 
